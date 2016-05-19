@@ -1,0 +1,58 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for core:Title_Validation_CLO:jar:1.1
+[WARNING] 'version' contains an expression but should be a constant. @ core:Title_Validation_CLO:${build.version}, /Users/Serg/Workspace/Title_Validation_CLO/pom.xml, line 7, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Title_Validation_CLO 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Title_Validation_CLO ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Title_Validation_CLO ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Serg/Workspace/Title_Validation_CLO/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Title_Validation_CLO ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/Serg/Workspace/Title_Validation_CLO/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Title_Validation_CLO ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Serg/Workspace/Title_Validation_CLO/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Title_Validation_CLO ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Serg/Workspace/Title_Validation_CLO/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Title_Validation_CLO ---
+[INFO] Surefire report directory: /Users/Serg/Workspace/Title_Validation_CLO/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running core.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Title_Validation_CLO ---
+[INFO] Building jar: /Users/Serg/Workspace/Title_Validation_CLO/target/Title_Validation_CLO-1.1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.4:single (assemble-all) @ Title_Validation_CLO ---
+[INFO] Building jar: /Users/Serg/Workspace/Title_Validation_CLO/target/Title_Validation_CLO-1.1-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.463 s
+[INFO] Finished at: 2016-05-18T19:59:12-07:00
+[INFO] Final Memory: 38M/505M
+[INFO] ------------------------------------------------------------------------

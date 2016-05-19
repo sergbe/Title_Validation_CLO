@@ -1,0 +1,161 @@
+Usage: <main class> [options]
+  Options:
+    -l, --list
+       Description: Pairs of URL & title expected. Separators of Pairs is "|".
+       Example: "http://www.learn2test.net|www.learn2test.net"
+
+
+>>>..........
+Test Case ID: 		TC-003.01
+URL: 			http://www.learn2test.net
+Title Expected: 	learn2test.net
+Title Actual: 		learn2test.net
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.02
+URL: 			http://www.walmart.com
+Title Expected: 	Walmart.com: Save money. Live better.
+Title Actual: 		Walmart.com: Save money. Live better.
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.03
+URL: 			http://www.google.com
+Title Expected: 	Google
+Title Actual: 		Google
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.04
+URL: 			http://www.bestbuy.com
+Title Expected: 	Best Buy: Expert Service. Unbeatable Price.
+Title Actual: 		Best Buy: Expert Service. Unbeatable Price.
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.05
+URL: 			http://www.wikipedia.org
+Title Expected: 	Wikipedia
+Title Actual: 		Wikipedia
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.06
+URL: 			http://www.lenta.ru
+Title Expected: 	Lenta.ru
+Title Actual: 		Lenta.ru
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.07
+URL: 			http://www.rutvclub.com
+Title Expected: 	RUTVclub — Телевидение XXI века
+Title Actual: 		RUTVclub — Телевидение XXI века
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.08
+URL: 			http://www.gmail.com
+Title Expected: 	Gmail - Free Storage and Email from Google
+Title Actual: 		Gmail - Free Storage and Email from Google
+Test Case Result: 	PASSED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.09
+URL: 			http://www.vk.com
+Title Expected: 	Welcome! 
+Title Actual: 		Welcome! | VK
+Test Case Result: 	FAILED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.010
+URL: 			http://www.teslamotors.com
+Title Expected: 	Tesla Motors 
+Title Actual: 		Tesla Motors | Premium Electric Vehicles
+Test Case Result: 	FAILED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.011
+URL: 			http://www.github.com
+Title Expected: 	How people build software · GitHub
+Title Actual: 		How people build software · GitHub
+Test Case Result: 	PASSED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.012
+URL: 			http://www.beetechllc.com
+Title Expected: 	About Bee Technologies and Galina Adzhigirey
+Title Actual: 		About Bee Technologies and Galina Adzhigirey
+Test Case Result: 	PASSED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.013
+URL: 			http://www.amway.com
+Title Expected: 	www.amway.com
+Title Actual: 		Amway United States | Start Your Own Business | Amway US
+Test Case Result: 	FAILED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.014
+URL: 			http://www.honda.com
+Title Expected: 	American Honda Motor Co.
+Title Actual: 		American Honda Motor Co., Inc. - Official Site
+Test Case Result: 	FAILED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.015
+URL: 			http://www.odnoklassniki.ru
+Title Expected: 	www.ok.ru
+Title Actual: 		Odnoklassniki
+Test Case Result: 	FAILED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.016
+URL: 			http://www.dodge.com
+Title Expected: 	www.dodge.com
+Title Actual: 		Dodge Official Site – Muscle Cars & Sports Cars
+Test Case Result: 	FAILED
+..........<<<
+
+>>>..........
+Test Case ID: 		TC-003.017
+URL: 			http://www.apple.com
+Title Expected: 	www.apple.com
+Title Actual: 		Apple
+Test Case Result: 	FAILED
+..........<<<
+
+
+>>>..........
+Test Case ID: 		TC-003.018
+URL: 			http://www.palmerson.com
+Title Expected: 	Store Coming Soon
+Title Actual: 		Store Coming Soon
+Test Case Result: 	PASSED
+..........<<<
+
